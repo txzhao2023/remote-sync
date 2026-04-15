@@ -3,6 +3,8 @@
 访问：https://你的域名
 debug：https://你的域名/?debug=1
 
+教程视频：链接: https://yun.139.com/shareweb/#/w/i/2ur52qv7gHw9h
+
 为了实现这个插件的功能，您需要：
 
 1. **VPS** (本文以 GCP VPS 为例，国内的 VPS 注意备案)
@@ -116,9 +118,6 @@ cd frp_0.56.0_linux_amd64
 ```ini
 [common]
 bind_port = 7000
-dashboard_port = 7500
-dashboard_user = admin
-dashboard_pwd = admin
 ```
 
 **后台运行配置 (Systemd)**：
