@@ -1,5 +1,8 @@
 # My-Neuro 远程同步插件部署指南
 
+访问：https://你的域名
+debug：https://你的域名/?debug=1
+
 为了实现这个插件的功能，您需要：
 
 1. **VPS** (本文以 GCP VPS 为例，国内的 VPS 注意备案)
