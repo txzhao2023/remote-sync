@@ -5,11 +5,13 @@ debug：https://你的域名/?debug=1
 
 教程视频：链接: https://yun.139.com/shareweb/#/w/i/2ur52qv7gHw9h
 
+欢迎大佬们使用和自由修改！
+
 为了实现这个插件的功能，您需要：
 
-1. **VPS** (本文以 GCP VPS 为例，国内的 VPS 注意备案)
-2. **自己的域名**（本文以 netcup 域名为例）
-3. **一台能够运行 my-neuro 的电脑** (Windows PC)
+1. **VPS** (本文以 GCP VPS 为例，也就是Google的小机，国内的 *域名* 注意备案)
+2. **自己的域名**（视频以 netcup 域名为例）
+3. **一台能够运行 my-neuro 的电脑** (Windows PC，云端的没试过)
 4. **善用 AI 工具**（包括但不限于 VSCode 的 Roocode）
 
 ---
@@ -310,7 +312,7 @@ ls -la /var/www/live2d/
    sudo systemctl start frps
    ```
 
-2. **启动本地 PC 的 FRP 客户端**：
+2. **启动本地 PC 的 FRP 客户端（注意要在frp.exe的文件夹里面启动cmd）**：
    ```cmd
    frpc.exe -c frpc.ini
    ```
